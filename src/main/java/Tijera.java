@@ -6,16 +6,16 @@ public class Tijera implements Jugada{
 
     @Override
     public Resultado vsPiedra() {
-        return Resultado.DERROTA;
+        return Resultado.PIEDRA;
     }
 
     @Override
     public Resultado vsPapel() {
-        return Resultado.VICTORIA;
+        return Resultado.TIJERA;
     }
 
     @Override
     public Resultado vsTijera() {
-        return Resultado.EMPATE;
+        return Resultado.TIJERA;
     }
 }

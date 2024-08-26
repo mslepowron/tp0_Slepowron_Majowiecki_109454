@@ -7,16 +7,16 @@ public class Piedra implements Jugada{
 
     @Override
     public Resultado vsPiedra() {
-        return Resultado.EMPATE;
+        return Resultado.PIEDRA;
     }
 
     @Override
     public Resultado vsPapel() {
-        return Resultado.DERROTA;
+        return Resultado.PAPEL;
     }
 
     @Override
     public Resultado vsTijera() {
-        return Resultado.VICTORIA;
+        return Resultado.PIEDRA;
     }
 }

@@ -1,3 +1,3 @@
 public enum Resultado {
-    VICTORIA, DERROTA, EMPATE
+    PIEDRA, PAPEL, TIJERA
 }
