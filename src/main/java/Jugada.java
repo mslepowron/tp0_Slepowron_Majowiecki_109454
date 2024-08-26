@@ -1,6 +1,6 @@
 public interface Jugada {
-    Resultado partida(Jugada contrincante);
-    Resultado vsPiedra();
-    Resultado vsPapel();
-    Resultado vsTijera();
+    Ganador partida(Jugada contrincante);
+    Ganador vsPiedra();
+    Ganador vsPapel();
+    Ganador vsTijera();
 }

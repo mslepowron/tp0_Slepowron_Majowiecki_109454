@@ -1,3 +1,3 @@
-public enum Resultado {
+public enum Ganador {
     PIEDRA, PAPEL, TIJERA
 }

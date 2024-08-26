@@ -9,46 +9,46 @@ public class PiedraPapelTijeraTest {
 
     @Test
     public void testPiedraGanaVsTijera() {
-        assertEquals(Resultado.PIEDRA, piedra.partida(tijera));
+        assertEquals(Ganador.PIEDRA, piedra.partida(tijera));
     }
 
     @Test
     public void testPiedraPierdeVsPapel() {
-        assertEquals(Resultado.PAPEL, piedra.partida(papel));
+        assertEquals(Ganador.PAPEL, piedra.partida(papel));
     }
 
     @Test
     public void testPiedraEmpataVsPiedra() {
-        assertEquals(Resultado.PIEDRA, piedra.partida(piedra));
+        assertEquals(Ganador.PIEDRA, piedra.partida(piedra));
     }
 
     @Test
     public void testPapelGanaVsPiedra() {
-        assertEquals(Resultado.PAPEL, papel.partida(piedra));
+        assertEquals(Ganador.PAPEL, papel.partida(piedra));
     }
 
     @Test
     public void testPapelPierdeVsTijera() {
-        assertEquals(Resultado.TIJERA, papel.partida(tijera));
+        assertEquals(Ganador.TIJERA, papel.partida(tijera));
     }
 
     @Test
     public void testPapelEmpataVsPapel() {
-        assertEquals(Resultado.PAPEL, papel.partida(papel));
+        assertEquals(Ganador.PAPEL, papel.partida(papel));
     }
 
     @Test
     public void testTijeraGanaVsPapel() {
-        assertEquals(Resultado.TIJERA, tijera.partida(papel));
+        assertEquals(Ganador.TIJERA, tijera.partida(papel));
     }
 
     @Test
     public void testTijeraPierdeVsPiedra() {
-        assertEquals(Resultado.PIEDRA, tijera.partida(piedra));
+        assertEquals(Ganador.PIEDRA, tijera.partida(piedra));
     }
 
     @Test
     public void testTijeraEmpataVsTijera() {
-        assertEquals(Resultado.TIJERA, tijera.partida(tijera));
+        assertEquals(Ganador.TIJERA, tijera.partida(tijera));
     }
 }

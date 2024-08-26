@@ -1,22 +1,22 @@
 public class Piedra implements Jugada{
 
     @Override
-    public Resultado partida(Jugada contrincante) {
+    public Ganador partida(Jugada contrincante) {
         return contrincante.vsPiedra();
     }
 
     @Override
-    public Resultado vsPiedra() {
-        return Resultado.PIEDRA;
+    public Ganador vsPiedra() {
+        return Ganador.PIEDRA;
     }
 
     @Override
-    public Resultado vsPapel() {
-        return Resultado.PAPEL;
+    public Ganador vsPapel() {
+        return Ganador.PAPEL;
     }
 
     @Override
-    public Resultado vsTijera() {
-        return Resultado.PIEDRA;
+    public Ganador vsTijera() {
+        return Ganador.PIEDRA;
     }
 }
